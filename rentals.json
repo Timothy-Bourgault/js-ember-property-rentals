@@ -16,5 +16,14 @@
     "type": "Apartment",
     "bedrooms": 3,
     "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg"
-  }]
+  }],
+
+  "announcements": [{
+      "message": "Big News"
+    }, {
+      "message": "Special Weather Warning"
+    }, {
+      "message": "Special Sale"
+
+    }]
 }

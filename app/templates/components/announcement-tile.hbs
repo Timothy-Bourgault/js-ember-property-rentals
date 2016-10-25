@@ -1,0 +1,11 @@
+<li>
+  {{announcment.message}}
+  {{#if isAnnouncementShowing }}
+  <p>
+    This is a message: {{announcement.message}}
+  </p>
+  {{else}}
+    <button {{action 'announcementShow'}}>Show</button>
+  {{/if}}
+    <button {{action 'delete' announcement}}>Delete</button>
+</li>

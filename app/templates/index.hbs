@@ -1,10 +1,20 @@
 <h1>Welcome to Property Rentals</h1>
+
 <p>
   We hope you have a great experience with us.
 </p>
 
 <ul>
-  {{#each model as |rental|}}
+  {{#each announcements as |announcement|}}
+    {{announcement-tile announcement=announcement
+    destroyAnnouncement="destroyAnnouncement"}}
+  {{/each}}
+</ul>
+
+{{new-announcement saveAnnouncement2="saveAnnouncement3"}}
+
+<ul>
+  {{#each rentals as |rental|}}
     {{rental-tile rental=rental destroyRental="destroyRental"}}
   {{/each}}
 </ul>
